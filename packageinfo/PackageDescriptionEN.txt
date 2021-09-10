@@ -1,0 +1,3 @@
+FFX Freq Phaser [1.0.0] by Freq FX
+
+*Freq Phaser* is an insanely lush stereo phase shifting effect with feedback delay and saturation, a multi-mode quadrature LFO, a mappable and automatable manual phase adjustment, and an analogue-style envelope follower for all of your phase shifting needs. 

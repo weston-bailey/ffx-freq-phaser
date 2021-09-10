@@ -1,0 +1,230 @@
+$Page FFX Freq Phaser [1.0.0]
+$TargetName FFX Freq Phaser [1.0.0]
+
+
+Divider.tif
+
+ffxlogo.png
+
+*Freq Phaser* by $Link Freq FX <http://www.freqfx.com>
+
+Follow $Link Freq FX on Facebook <http://www.facebook.com/FreqFX/> to be in the loop for promotions, updates, and new products. 
+
+Join the discussion with other users in the $Link Freq FX on Facebook Group. <http://www.facebook.com/groups/324550934763354/> 
+
+Artwork, Logo and Media Design by $Link *Modsirius* <http://www.modsirius.xyz>
+
+Divider.tif
+
+*Freq Phaser* is an insanely lush stereo phase shifting effect with feedback delay and saturation, a multi-mode quadrature LFO, a mappable and automatable manual phase adjustment, and an analogue-style envelope follower for all of your phase shifting needs. 
+
+*Freq Phaser* is especially well suited for rich classic analogue phase shifter sounds, subtle stereo warbles, adding precise articulations with the manual phase adjustment, and creating dynamic motion with the envelope follower.
+
+*Freq Phaser* is a product of *Freq FX* so OF COURSE you can push the LFO Rate, Feedback, Delay, and Filter Q parameters well beyond typical, 'recommended' settings if you dare to venture into a new frontier of sound-design. A lot of love and time has been spent tuning *Freq Phaser's* parameters so you can create stable, yet chaotic, warbling feedback resonance effects that are unlike anything any other plug-in or stomp-box has to offer. 
+
+Divider.tif
+
+FreqSeqLogo.png
+
+*Freq Phaser* is a further development of one the effects available in *Freq Seq,* the frequency sequencer, also available at $Link Freq FX <http://www.freqfx.com> 
+
+Divider.tif
+
+*Freq Phaser* is also fully annotated so you can use *Live's* info view to explore the functions of each User Interface Element.
+
+The *Freq Phaser* Overview lesson starts on the next page and covers each UI element and what they do.
+
+$Comment ($Link your description <GotoPage:link name>) 
+
+$Comment --------------------------------------------------------------------------------
+
+$Page How Freq Phaser Works 
+$TargetName How Freq Phaser Works
+
+Divider.tif
+
+Phase-shifter effects rely on a special type of filter called and *all-pass filter.* You may be familiar with low-pass and high-pass filters, which attenuate the signal’s amplitude at the *frequency cut-off.* In the case of low-pass filters, attenuation occurs above the frequency cutoff,  and below it in the case of high-pass filters. Conversely, *all-pass filters* maintain unity gain at the *frequency cutoff,* and instead they shift the phase of the signal. When this phase shifted signal is recombined with the original signal (called feed-forward) phase-cancellation occurs at the *frequency cut-off*. The warbly sound phase shifter effects produce is caused by modulation of the all-pass filter’s cutoff frequency with an *LFO.*
+
+Divider.tif
+
+Most phase shifter effects rely on *’multi-stage’* all-pass filters, which means several all-pass filters are ran in series(one follows another). EHX Bad Stone phase-shifters (a legendary stompbox) use a 6 stage all-pass filter stack. Small Stones and MXR phase 90s use 4 stages. *Freq Phaser* uses two 4 stage filters stacks in parallel per channel for a total of *16 all-pass filter stages.*    
+
+Divider.tif
+
+*Freq Phaser* also has *two LFOs,* one per channel. The LFOs are phase locked, so they always run at the same speed, but can be offset from each other for unusual stereo effects. The LFO in *Freq Phaser* can be replaced with a *“Manual Phase Adjustment”,* inspired by the Bad Stone pedal, or by an amplitude-driven envelope follower.
+
+Divider.tif
+
+*Freq Phaser’s* specific parameters are covered in the next several pages. 
+
+$Comment --------------------------------------------------------------------------------
+
+$Page Phaser Controls
+$TargetName Phaser Controls
+
+Divider.tif
+
+The Six main controls of *Freq Phaser* can be found on the left panel. 
+
+PS1.png
+
+Divider.tif
+
+*Filter Q* [0% -100%] how much phase shifting occurs at the frequency cutoff. More Q = thicker phase shifting.
+
+*FeedForward* [-100% – 100%] Controls how much of the original signal is recombined with the phase-shifted output. Negative values invert the signal.
+
+*Feedback* [-100% – 100%] Controls how much of the all-pass filter stack’s output is feed back into its input. Negative values invert the signal.
+
+*FB Delay* [0% – 100%] Add between 1 sample and .25 seconds of delay in the feedback. To get classic phase shifter effects, keep this at 0%, but set it to 25% for strange comb-filter effects and to higher values for spaced-out slap-back echo effects.
+
+*Depth* [0% – 100%] Controls how much the LFO effects the frequency cutoff. Lower values will emphasize lower frequencies more.
+
+*L/R Offset* [0% – 100%] Controls the offset between the LFOs that control each channel. Thee deepest phase shifter effects come from having both LFOs aligned (either at 0% or 100%), amd more subtle stereo effects can be achieved with an offset between channels. 
+
+PS2.png
+
+This is the *LFO Visualizer.*
+
+Both the *Depth* and the *L/R Offset* parameters will display in the *LFO Visualizer.*
+
+Divider.tif
+
+$Comment --------------------------------------------------------------------------------
+
+$Page LFO Control Panel
+$TargetName LFO Control Panel
+
+Divider.tif
+
+The middle panel of *Freq Phaser* is where the LFO controls are.
+
+PS3.png
+
+The LFO Controls
+
+Divider.tif
+
+PS4.png
+
+You can select from one of *four modes* at the top of the *LFO Controls.*
+
+Divider.tif
+
+PS5.png
+
+The middle of the LFO Controls is *mode-dependent,* and will update base on which mode is selected.
+
+Divider.tif
+
+PS6.png
+
+The *LFO Visualizer* will always update based on the changes you are making.
+
+Divider.tif
+
+The Four *LFO Modes* are discussed on the next page.
+
+Divider.tif
+
+
+
+$Comment --------------------------------------------------------------------------------
+
+$Page LFO Modes
+$TargetName LFO Modes
+
+
+Divider.tif
+
+PS7.png
+
+In *Free Mode* the LFO runs independent of Live’s tempo and can be set in hz (cycles per second).
+
+*Waveform* [5 selections] Allows you to choose from 5 different wave forms for the LFO.
+1 –  A simple sine wave.
+2 –  A Triangle wave.
+3 –  A Square wave with duty-cycle shaping slightly rounded edges to prevent filter blow-outs.
+4 –  A completely random wave (still moves at set speed)
+5 –  Random wave that is the same between channels
+
+*Duty* [0% - 75%] Control the duty of the square wave.
+
+*Rate* [.01hz - 50hz] Set the LFO in cycles per second (hz).
+
+Divider.tif
+
+PS8.png
+
+In *Sync Mode* the LFO runs at a musical time division relative to Live’s transport. Otherwise, it is identical to *Free Mode.* Please note that in *Sync Mode* Live’s transport must be running for the LFO to run. This is because it is *phase locked* to Live’s transport – i.e. it will always be at the same place at the same time in the time-line.
+
+*Sync* [dotted whole note - 128th note] Set the LFO to a musical sub-division.
+  
+Divider.tif
+
+PS9.png
+
+In *Set Mode* the LFO is manually adjustable. It is MIDI Mappable and Automatable. It can also be mapped with other M4L modulation devices. You may notice that you hear a little lag in the phase shifter from your adjustments. This is due to a slew limiter that is added to make sure that the filter’s *cut off frequencies* are not adjusted too quickly, as this can lead to blow-outs.
+
+*Manual Phase* [0% - 100%] manually adjust or automate the frequency cut off of the all-pass filters.
+
+*Response* [Sine - Ramp] Change the response of the manual phase from a linear ramp to a sine wave.
+
+Divider.tif
+
+PS10.png
+
+In *Env Mode* the LFO is driven by an *envelope follower* that is triggered by the amplitude of the incoming signal. The *envelope follower* has a mushy, analogue feel by design and all the parameters interact with each other.
+
+*Attack* [0% - 100%] How quickly the envelope follower engages.
+
+*Release* [0% - 100%] How quickly the envelope follower disengages.
+
+*Thresh* [-infdB - -0.5dB] Amplitude level that triggers the envelope follower.
+
+*Sense* [0% - 100%] The overall sensitivity of the envelope follower.
+
+*Response* [Sine - Ramp] Drive either a sine wave or linear curve with the envelope.
+
+*Direction* [Up – Down] Choose whether the enverlope starts at 0 and increases (up) or starts at 1. and decreases (down).
+
+Divider.tif
+
+$Comment --------------------------------------------------------------------------------
+
+$Page Output
+$TargetName Output
+
+Divider.tif
+
+PS11.png
+
+The right-most panel on *Freq Phaser* lets you control the output signal of the effect.
+
+Divider.tif
+
+*Width* [0%  -200%] Control the stereo width of the wet (effected) signal.
+
+*Balance* [50L – 50R] Place the wet (effected) signal in the stereo field. 
+
+*Amp* [-48dB - +48dB] Control the wet (effected) signal’s amplitude.
+
+*Dry/Wet* [0%  - 100%] Blend between the dry signal(bypassing effect) and wet signal(effected).
+
+
+
+
+$Comment --------------------------------------------------------------------------------
+
+$Page Sound Design Tips
+$TargetName Sound Design Tips
+
+Sound design tips:
+-> To get the classic lush analogue phaser sounds, Keep *Filter Q* high, around 80%+, keep *L/R Offset* on 0%, *FB Delay* on 0%, and adjust the tone of the phaser effect with the *Feedback* and *Feedforward.*
+-> Try using *Manual Phase* sweeps the way you would use fiilter cut-off sweeps on your tracks. Better yet, combine the two.
+-> Turn down the *Depth* to emphasize lower frequencies
+-> Modulate the *FB Delay* with automation or other devices to put a flanger in the feedback loop.
+-> Close the *Width* down to 0% for mono phase shifter effects and try setting *L/R Offset* with the *Width* at 0% for even more phasing chaos
+-> With the *Filter Q, Feedback, and Depth* at 100% Freq Phaser will self oscillate. You can control the sonic nature of the self oscillation with the *Manual Phase,* and *FB Delay* parameters. 
+-> When adjusting the the envelope, keep in mind the parameters interact with each other, so its best to nudge them around (especially the *Thresh* and *Sense).*  
+-> Remember, the Envelope follows the AMPLITUDE of the incoming signal, so if you sound doesn’t have a long tail, you may not hear much effect on release. 
